@@ -2,7 +2,8 @@
   var DEFAULT_CONFIG, DEFAULT_REQUEST_OPTIONS, ERRORS, GOOGLE_CAPTCHA_ENDPOINT, Recaptcha2, request;
 
   request = require('request');
-
+  Object.assign = require('object-assign');
+ 
   ERRORS = {
     'request-error': 'Api request failed.',
     'missing-input-secret': 'The secret parameter is missing.',
