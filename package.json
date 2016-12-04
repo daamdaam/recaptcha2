@@ -12,7 +12,8 @@
     "url": "git+ssh://git@github.com/fereidani/recaptcha2.git"
   },
   "dependencies": {
-    "request": "2.x"
+    "request": "2.x",
+    "object-assign": "^4.1.0"
   },
   "devDependencies": {
     "coffee-script": "^1.11.1",
